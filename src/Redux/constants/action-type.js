@@ -1,0 +1,4 @@
+export const Actiontype = {
+ SELECT_AUTOSUGGESTION :'SELECT_AUTOSUGGESTION' ,
+ SEARCH: 'SEARCH'
+}
