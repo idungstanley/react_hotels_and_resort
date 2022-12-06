@@ -1,19 +1,19 @@
 import React from 'react'
-import { slide as Menu } from 'react-burger-menu'
 import './Navbar.css'
+// import { slide as Menu } from 'react-burger-menu'
 
 export default function Navbar() {
   return (
     <nav className='nav-bar'>
-      <img src='./logo.png' alt='' srcset='' />
+      <img src='./logo.png' alt=''  />
       <ul className='list--container'>
         <li className='list--item'>
           English 
-          <img src='./dropdown.png' alt='' srcset='' className='align-img' />
+          <img src='./dropdown.png' alt='' className='align-img' />
         </li>
         <li className='list--item'>
           USD
-          <img src='./dropdown.png' alt='' srcset='' className='align-img' />
+          <img src='./dropdown.png' alt='' className='align-img' />
         </li>
         <li className='list--item'>My Account</li>
         <li className='list--item'>Logout</li>
